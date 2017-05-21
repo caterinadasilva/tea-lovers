@@ -22,7 +22,41 @@
 		<!-- SECCIÓN NEWSLETTER -->
 		<section class="color">
 			<div class="newsletter">
-				<button id="suscribirse">Suscríbete a nuestro newsletter</button>
+				<div class="contenido">
+					<h2>¿Te gusta el té?</h2>
+					<form action="#" method="post">
+						<div>
+							<label for="name">Nombre:</label>
+							<input type="text" name="name" id="name" placeholder="Escribe tu nombre" value="" tabindex="1" />
+						</div>
+						<div>
+							<label for="email">Email:</label>
+							<input type="email" name="email" id="email" placeholder="Escribe tu email" value="" tabindex="2" />
+						</div>
+						<div>
+							<label for="address">Dirección:</label>
+							<input type="text" name="address" id="address" placeholder="Escribe tu dirección" value="" tabindex="3" />
+						</div>					
+						<div>
+							<label for="selector">Té favorito:</label>
+							<select name="selector" id="selector" tabindex="4">
+								<option value="" selected disabled>Selecciona tu té favorito</option>
+								<option value="Negro">Negro</option>
+								<option value="Verde">Verde</option>
+								<option value="Rojo">Rojo</option>
+								<option value="Blanco">Blanco</option>
+								<option value="Oolong">Oolong</option>
+							</select>
+						</div>						
+						<div>
+							<input type="checkbox" name="checkbox" id="checkbox" tabindex="5" />
+							<label for="checkbox">Quiero recibir muestras gratis.</label>
+						</div>
+						<div>
+							<button id="suscribirse" tabindex="6">Suscríbete a nuestro newsletter</button>
+						</div>
+					</form>
+				</div>
 			</div>
 		</section>
 		<!-- SECCIÓN NUESTRA PASIÓN -->
@@ -74,5 +108,6 @@
 			<p>Té Encanto: Av. Italia 1317, Providencia.</p>
 			<small>Desarrollado por Caterina Da Silva</small>
 		</footer>
+		<script type="text/javascript" src="assets/js/main.js"></script>
 	</body>
 </html>

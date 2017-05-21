@@ -36,6 +36,37 @@ Código Hexadecimal gris footer: #3B3B3B
 	text-align: center;
 	padding: 50px;
 }
+.newsletter .contenido {
+    width: 55%;
+    padding-bottom: 30px;
+}
+.newsletter form {
+    margin: 50px 0 0;
+}
+.newsletter form > div {
+    padding: 10px 0;
+}
+label {
+    display: block;
+    margin: 0 0 5px;
+    font-size: 20px;
+}
+input[type|=checkbox] {
+	display: inline-block;
+    width: inherit;
+}
+label[for|=checkbox] {
+	display: inline-block;
+}
+input::placeholder {
+    color: #8EC641;
+}
+input, select {
+	width: 98%;
+	border-radius: 5px;
+	border: none;
+	padding: 1%; 
+}
 .newsletter button {
 	color: white;
 	background-color: #8EC641;
@@ -45,6 +76,11 @@ Código Hexadecimal gris footer: #3B3B3B
 	font-size: 1.5em;
 	font-weight: bolder;
 	cursor: pointer;
+	transition: .5s ease background-color;
+}
+.newsletter button:hover, .newsletter button:focus, .newsletter button:active {
+	background-color: #B0E469;
+	transition: .5s ease background-color;
 }
 
 /* SECCIÓN ABOUT */
@@ -64,6 +100,12 @@ Código Hexadecimal gris footer: #3B3B3B
 	font-weight: bolder;
 	font-size: 5rem;
 	line-height: 5rem;
+	text-transform: uppercase;
+}
+.contenido h2 {
+	font-weight: bolder;
+	font-size: 3rem;
+	line-height: 3rem;
 	text-transform: uppercase;
 }
 
